@@ -409,7 +409,7 @@ _sed() {
   if [[ "${OSTYPE}" = "Linux" || "${OSTYPE:0:5}" = "MINGW" ]]; then
     sed -r "${@}"
   else
-    sed -E "${@}"
+    sed -r "${@}"
   fi
 }
 
