@@ -36,7 +36,7 @@ server {
 With Apache just add this to your config and it should work in any VHost:
 
 ```apache
-Alias /.well-known/acme-challenge /var/www/dehydrated
+Alias /.well-known/acme-challenge /usr/share/dehydrated/
 
 <Directory /var/www/dehydrated>
         Options None
