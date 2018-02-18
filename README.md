@@ -80,6 +80,11 @@ Parameters:
 ## Cron Example
 15 3 * * 0 /usr/share/dehydrated/dehydrated -c --accept-terms --keep-going --domain example.com --out /etc/pki/certs
 
+## Trouble with Curl 
+```ERROR: Problem connecting to server (get for https://acme-v01.api.letsencrypt.org/directory; curl returned with 60)```
+Fix by added **-k** option to curl 
+
+
 ## Donate
 
 I'm a student hacker with a few (unfortunately) quite expensive hobbies (self-hosting, virtualization clusters, routing,
