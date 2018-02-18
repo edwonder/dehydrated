@@ -77,6 +77,9 @@ Parameters:
  --algo (-a) rsa|prime256v1|secp384r1 Which public key algorithm should be used? Supported: rsa, prime256v1 and secp384r1
 ```
 
+## Cron Example
+15 3 * * 0 /usr/share/dehydrated/dehydrated -c --accept-terms --keep-going --domain example.com --out /etc/pki/certs
+
 ## Donate
 
 I'm a student hacker with a few (unfortunately) quite expensive hobbies (self-hosting, virtualization clusters, routing,
